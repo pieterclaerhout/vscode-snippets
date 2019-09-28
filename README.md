@@ -7,7 +7,7 @@ These are some of the [custom snippets](https://code.visualstudio.com/docs/edito
 Just place the desired Go file in:
 
 - macOS: ~/Library/Application Support/Code/User/snippets
-- Windows: 
+- Windows: %HOMEPATH%\AppData\Roaming\Code\User\snippets
 
 ### Go Snippets
 
