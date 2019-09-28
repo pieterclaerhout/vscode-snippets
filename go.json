@@ -1,0 +1,35 @@
+{
+	"empty-test": {
+		"prefix": "tc",
+		"body": [
+			"func Test_${1:name}(t *testing.T) {",
+			"",
+			"    type test struct {",
+			"        name string",
+			"    }",
+			"",
+			"    var tests = []test{}",
+			"",
+			"    for _, tc := range tests {",
+			"        t.Run(tc.name, func(t *testing.T) {",
+			"        })",
+			"    }",
+			"",
+			"}",
+		],
+		"description": "Empty Test"
+	},
+	"test-imports": {
+		"prefix": "tcimp",
+		"body": [
+			"import (",
+			"    \"testing\"",
+			"",
+			"    \"github.com/stretchr/testify/assert\"",
+			"",
+			"    \"github.com/${1:package}\"",
+			")",
+				],
+		"description": "Test Imports"
+	}
+}
