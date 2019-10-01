@@ -1,21 +1,21 @@
-## Snippets for Visual Studio Code
+# Snippets for Visual Studio Code
 
 [![license](https://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://github.com/pieterclaerhout/vscode-snippets/raw/master/LICENSE) [![GitHub version](https://badge.fury.io/gh/pieterclaerhout%2Fvscode-snippets.svg)](https://badge.fury.io/gh/pieterclaerhout%2Fvscode-snippets)
 
 These are some of the [custom snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) I'm using for [Visual Studio Code](https://code.visualstudio.com).
 
-### How to install
+## How to install
 
 Just place the desired Go file in:
 
 - macOS: ~/Library/Application Support/Code/User/snippets
 - Windows: %HOMEPATH%\AppData\Roaming\Code\User\snippets
 
-### Go Snippets
+## Go Snippets
 
 For [Go](https://golang.org), I have two snippets defined:
 
-#### `tcimp`
+### `tcimp`
 
 You can use the `tcimp` snippet to quickly add the basic imports needed for writing a test.
 
@@ -35,7 +35,7 @@ import (
 
 ![`tcimp` snippet](https://github.com/pieterclaerhout/vscode-snippets/blob/master/images/vscode_snippet_tcimp.png?raw=true)
 
-#### `tc`
+### `tc`
 
 Typing `tc` sets up the basic structure for an empty test and results in:
 
