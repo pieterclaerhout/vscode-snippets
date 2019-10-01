@@ -1,5 +1,7 @@
 ## Snippets for Visual Studio Code
 
+[![license](https://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://github.com/pieterclaerhout/vscode-snippets/raw/master/LICENSE) [![GitHub version](https://badge.fury.io/gh/pieterclaerhout%2Fvscode-snippets.svg)](https://badge.fury.io/gh/pieterclaerhout%2Fvscode-snippets)
+
 These are some of the [custom snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) I'm using for [Visual Studio Code](https://code.visualstudio.com).
 
 ### How to install
