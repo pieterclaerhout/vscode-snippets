@@ -31,6 +31,8 @@ import (
 )
 ```
 
+![`tcimp` snippet](https://github.com/pieterclaerhout/vscode-snippets/blob/master/images/vscode_snippet_tcimp.png?raw=true)
+
 #### `tc`
 
 Typing `tc` sets up the basic structure for an empty test and results in:
@@ -51,3 +53,5 @@ func Test_<name>(t *testing.T) {
 
 }
 ```
+
+![`tc` snippet](https://github.com/pieterclaerhout/vscode-snippets/blob/master/images/vscode_snippet_tc.png?raw=true)
